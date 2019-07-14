@@ -1,3 +1,96 @@
-h1 {
-  color: salmon;
+body{
+background-color: #d6d6d6;
+align-items: center;
+justify-items: center;
+padding: 30px;
 }
+.h1 {
+  color: rgb(65, 65, 65);
+  font-size: 30px;
+  font-weight: bold;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: arial;
+  color: rgb(65, 65, 65);
+  font-size: 15px;
+  font-weight: lighter;
+}
+.size {
+  display: flex;
+  height:  320px;
+  background-color: white;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0%, 100%, 0.815);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  align-self: center;
+  background-size: cover;
+
+  
+}
+.size1 {
+  display: flex;
+  height:  320px;
+  background-color: white;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0%, 100%, 0.815);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 40px;
+  background-size: cover;
+  
+}
+.container {
+margin-top: 30px;
+display: flex;
+justify-content: space-around ;
+padding: 0px 180px;
+}
+img.landscape {
+  height: 320px;
+  width: 280px;
+}
+.size:first-of-type {
+  background-image: url('../img/london.jpg');
+}
+.size:nth-of-type(2){
+  background-image: url('../img/new-york.jpg')
+}
+.size:nth-of-type(3){
+  background-image: url('../img/san-francisco-2.jpg')
+}
+.size1:nth-of-type(1){
+  background-image: url('../img/napa.jpg');
+}
+.size1:nth-of-type(3){
+  background-image: url('../img/sonoma.jpg')
+}
+.size1:nth-of-type(2){
+  background-image: url('../img/san-francisco.jpg')
+}
+
+.guidbook-button  button{
+display: flex;
+background-color: #ebebeb;
+padding: 10px 10px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
+
+.guidbook-button  {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  border: 3px black;
+
+  }
