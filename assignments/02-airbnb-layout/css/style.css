@@ -1,3 +1,138 @@
 h1 {
-  color: salmon;
+  color: #848282;
 }
+body {
+  background-color: #dcdcdc8c;
+  font-family: "Montserrat" ;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.headline h1 {
+  font-style: normal;
+    font-family:"Montserrat";
+  margin-bottom: -5px;
+}
+
+.headline h3 {
+  font-style: normal;
+    font-family:"Montserrat";
+  margin-bottom: +5px;
+}
+
+
+.city1 {
+  display: flex;
+  justify-content: space-around ;
+
+}
+.SanFrancisco {
+  display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat" ; 
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/san-francisco.jpg');
+
+}
+.NewYork {
+  display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat"  ;
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/new-york.jpg');
+  
+}
+.London {
+  display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat"  ;
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/london.jpg');
+  
+}
+
+
+.button1 {
+  display: inline-flex;
+    justify-content: flex1;
+    background-color: #ebebeb;
+    border: solid;
+    color: #ebebeb;
+    padding: 20px 100vh;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 60px;
+    margin: 2px 2px;
+    cursor: cell;
+}
+
+  .city2 {
+    display: flex;
+  justify-content: space-around ;
+    
+  }
+  .Napa {
+    display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat"; 
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+    background-image: url('../img/napa.jpg');
+  }
+  .Sonoma {
+    display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat"; 
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+    background-image: url('../img/sonoma.jpg');
+    
+  }
+  .SanFrancisco2 {
+    display: flex ;
+  height: 400px;
+  width: 450px;
+  font-size: 40px;
+  font-family: "Montserrat";  
+  color: #faf5f5;
+  justify-content: center;
+  align-items: center;
+    background-image: url('../img/san-francisco-2.jpg');
+   
+  }
+  .button2 {
+    display: center;
+    justify-content: center;
+    background-color: rgb(223, 219, 219);
+    border: 2px solid #636060;
+    padding: 50px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
