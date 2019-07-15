@@ -1,3 +1,103 @@
-h1 {
-  color: salmon;
+
+
+body{
+  background:rgba(238, 238, 238, 0.89);
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(65, 62, 62);
+  text-decoration-style: solid;
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+
+.headline p{
+  font-size: 16px;
+}
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ /* border: red solid; */ /* this boarder for test only*/
+
+}
+
+.flex-div{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 1000px;
+  margin: 30px;
+  /*border: black solid;*/ /* this boarder for test only*/
+
+}
+
+.cities{
+display: flex;
+height: 300px;
+width: 300px;
+background-size: cover;
+align-items: center; /* to align the text inside the img (y-axis)*/
+justify-content: center;
+flex-direction: row;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration-style: solid;
+font-size: 20px;
+font-weight: bold;
+}
+
+.london{
+  background-image: url(../img/london.jpg);
+}
+
+.san-francisco{
+  background-image: url(../img/san-francisco.jpg);
+}
+
+.new-york{
+  background-image: url(../img/new-york.jpg);
+}
+
+.sonama{
+  background-image: url(../img/sonoma.jpg);
+}
+
+.napa{
+  background-image: url(../img/napa.jpg);
+}
+
+.sanfrancisco{
+  background-image: url(../img/san-francisco-2.jpg);
+}
+
+.guidbook-button{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+
+.guidbook-button button{
+  background-color: white; 
+  border-color: rgba(146, 145, 145, 0.76);
+  border-width: 1px;
+  color: rgb(104, 103, 103);
+  padding: 15px 32px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+
+
 }
