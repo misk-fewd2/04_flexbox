@@ -1,3 +1,101 @@
-h1 {
-  color: salmon;
+body{
+background-color: lightcyan;
+
+}
+
+h2 {
+  color: black;
+  font-family: arial;
+}
+
+ p{
+   color:gray;
+font-family: arial;
+ }
+
+ .head{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+
+ }
+ .fdiv{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left:  300px;
+   margin-right: 300px;
+
+ }
+
+.content1{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+.content2{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+.content3{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+.content4{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+.content5{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+.content6{
+  display: flex;
+height: 220px;
+width: 220px;
+align-items: center;
+justify-content: center;
+background-size:cover;
+}
+
+h3{
+  text-align: center;
+  color: white;
+font-family: arial;
+}
+
+.button1{
+  display: flex;
+  justify-content: center;
+
+}
+button{
+  height: 30px;
+  width: 220px;
+
 }
