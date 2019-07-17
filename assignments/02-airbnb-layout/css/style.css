@@ -1,3 +1,149 @@
-h1 {
-  color: salmon;
+.Container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Destination
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  font-family: sans-serif;
+
+
+}
+.Guidebooks
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  font-family: sans-serif;
+}
+h4
+{
+  color: rgb(60, 60, 60);
+  font-family: "Helvetica";
+  align-items: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-top: 20px;
+ margin-bottom: 0px;
+
+}
+ h6
+{
+  color: rgb(60, 60, 60);
+  font-family: Helvetica;
+  align-items: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-top: 5px;
+ margin-bottom: 0px;
+
+}
+
+body
+{
+  background-color: gainsboro;
+}
+.headline
+{
+  justify-content: flex-center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+    font-family: sans-serif;
+}
+
+.flex-div
+{
+
+display: flex;
+justify-content: space-around;
+
+}
+/*cities of First Div*/
+.cities
+{
+  display: flex;
+  height: 180px;
+  width: 160px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+    margin: 7px;
+}
+/*cities of Second Div*/
+.cities2
+{
+  display: flex;
+  height: 180px;
+  width: 160px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+    margin: 7px;
+}
+.cities:nth-of-type(1)
+{
+  background-image: url('../img/san-francisco.jpg');
+}
+.cities:nth-of-type(2)
+{
+  background-image: url('../img/new-york.jpg');
+}
+.cities:nth-of-type(3)
+{
+  background-image: url('../img/london.jpg');
+}
+.cities2:nth-of-type(1)
+{
+  background-image: url('../img/napa.jpg');
+}
+.cities2:nth-of-type(2)
+{
+
+  background-image: url('../img/Sonoma.jpg');
+}
+.cities2:nth-of-type(3)
+{
+  background-image: url('../img/san-francisco-2.jpg');
+}
+/*.guidebook-button {
+padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}*/
+/*.Destination-button
+{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+
+}*/
+p
+{
+  color:white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+button
+{
+display: flex;
+justify-content: center;
+padding: 4px;
+width:160px;
+margin-top: 20px;
+font-family: Helvetica;
+color: rgb(60, 60, 60);
+font-size: 8px;
+
 }
