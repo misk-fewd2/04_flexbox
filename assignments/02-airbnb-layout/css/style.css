@@ -1,3 +1,114 @@
-h1 {
-  color: salmon;
+
+body{
+  background-color: gainsboro;
+
+}
+.flex-div{
+  display: flex;
+  justify-content: space-between;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+}
+
+.headline{
+  color: #989898;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+}
+
+.Justfortheweekend{
+  color: #989898;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+
+
+}
+.cities{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/san-Francisco.jpg');
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  display: flex;
+flex-direction: column;
+
+}
+.cities:nth-of-type(2){
+
+  background-image: url('../img/new-york.jpg');
+
+}
+.cities:nth-of-type(3){
+
+  background-image: url('../img/london.jpg');
+
+}
+.cities_s{
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/napa.jpg');
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  display: flex;
+flex-direction: column;
+}
+.cities_s:nth-of-type(2){
+
+  background-image: url('../img/sonoma.jpg');
+  color: white;
+  text-align: center;
+  display: flex;
+flex-direction: column;
+
+}
+.cities_s:nth-of-type(3){
+
+  background-image: url('../img/san-Francisco-2.jpg');
+  color: white;
+  text-align: center;
+  display: flex;
+flex-direction: column;
+
+}
+.guidebook-button{
+
+  justify-content: space-around;
+    align-items: stretch;
+  display: flex;
+  margin: 50px;
+  caret-color: red;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+}
+.btn {
+  color: grey;
+  background-color: white;
+  padding: 20px
+  border : solid black;
+  padding: 10px;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+}
+.headline{
+  display: flex;
+  align-items: center;
+  font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+}
+
+p{
+
+font-size: 50px;
+font-family:  Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
