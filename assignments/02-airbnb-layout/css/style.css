@@ -1,3 +1,97 @@
 h1 {
-  color: salmon;
+  color: #797474;
+  font-weight: bolder;
 }
+
+h3{
+  color: #898383;
+}
+
+
+body{
+ background-color: gainsboro;
+}
+
+.headline{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.flex-div{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.cities{
+  display: flex;
+  height:400px;
+  width:300px;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+}
+
+.cities2{
+  display: flex;
+  height:400px;
+  width:300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+}
+
+.cities:nth-of-type(1){
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.cities:nth-of-type(2){
+  background-image: url("../img/new-york.jpg");
+}
+
+.cities:nth-of-type(3){
+  background-image: url("../img/london.jpg");
+}
+
+.cities2:nth-of-type(1){
+  background-image: url("../img/napa.jpg");
+}
+
+.cities2:nth-of-type(2){
+  background-image: url("../img/sonoma.jpg");
+}
+
+.cities2:nth-of-type(3){
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+.guidbook-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+  
+}
+
+button{
+  background-color: white;
+  border: #898383 solid 1.5px;
+  height: 50px;
+  width: 276px;
+  
+}
+
+button h3{
+  color: #797474;
+  margin-top: 12px;
+}
+
+
