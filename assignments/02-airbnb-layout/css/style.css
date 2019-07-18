@@ -28,6 +28,7 @@ justify-content: center;
 align-items: center;
 
 }
+
 .cities-New{
   display:flex;
   height: 300px;
@@ -36,21 +37,22 @@ align-items: center;
   justify-content: center;
   align-items: center;
   }
+
   .cities-london{
-    display:flex;
-    height: 300px;
-    width: 300px;
-    background-image:url('../img/london.jpg');
-    justify-content: center;
-    align-items: center;
-    }
+  display:flex;
+  height: 300px;
+  width: 300px;
+  background-image:url('../img/london.jpg');
+  justify-content: center;
+  align-items: center;
+  }
+
 .guidebook-button {
   display: flex;
   justify-content: center;
   padding-top:30px;
    
 }
-
 
 .cities-San2{
   display:flex;
@@ -60,24 +62,27 @@ align-items: center;
   justify-content: center;
   align-items: center;
   }
-  .cities-napa{
+
+.cities-napa{
+  display:flex;
+  height: 300px;
+  width: 300px;
+  background-image:url('../img/napa.jpg');
+  justify-content: center;
+  align-items: center;
+  }
+
+  .cities-sonoma{
     display:flex;
     height: 300px;
     width: 300px;
-    background-image:url('../img/napa.jpg');
+    background-image:url('../img/sonoma.jpg');
     justify-content: center;
     align-items: center;
-    }
-    .cities-sonoma{
-      display:flex;
-      height: 300px;
-      width: 300px;
-      background-image:url('../img/sonoma.jpg');
-      justify-content: center;
-      align-items: center;
       }
-      p{
-        color: white;
-        font-size: 30px;
-        font-weight: 400
+
+  p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400
       }
