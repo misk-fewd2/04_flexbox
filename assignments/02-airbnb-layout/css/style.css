@@ -1,3 +1,78 @@
-h1 {
-  color: salmon;
+body {
+    background-color: #EDEFEC;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif, 'Arial';
+}
+
+.headline h2 {
+    margin-top:50px;
+    margin-bottom: -4px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cities-1,
+.cities-2 {
+    display: flex;
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.cities-1:nth-of-type(1) {
+    background-image: url('../img/san-francisco.jpg');
+}
+
+.cities-1:nth-of-type(2) {
+    background-image: url('../img/new-york.jpg');
+}
+
+.cities-1:nth-of-type(3) {
+    background-image: url('../img/london.jpg');
+}
+
+
+.cities-2:nth-of-type(1) {
+    background-image: url('../img/napa.jpg');
+}
+
+.cities-2:nth-of-type(2) {
+    background-image: url('../img/sonoma.jpg');
+}
+
+.cities-2:nth-of-type(3) {
+    background-image: url('../img/san-francisco-2.jpg');
+}
+
+.guidebook-button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.guidebook-button {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.button-layout {
+    font-family: sans-serif, 'Arial';
+    padding: 8px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
 }
