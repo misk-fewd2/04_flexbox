@@ -1,3 +1,73 @@
 h1 {
-  color: salmon;
+    color: rgb(32, 32, 31);
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Lato', sans-serif;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+}
+
+.cities {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.San1 {
+    background-image: url('../img/san-francisco.jpg');
+}
+
+.NY {
+    background-image: url('../img/new-york.jpg');
+}
+
+.L {
+    background-image: url('../img/london.jpg');
+}
+
+.Napa {
+    background-image: url('../img/napa.jpg');
+}
+
+.Sonoma {
+    background-image: url('../img/sonoma.jpg');
+}
+
+.San2 {
+    background-image: url('../img/san-francisco-2.jpg');
+}
+
+.guidebook-button {
+    display: flex;
+    justify-content: center;
+}
+
+.guidebook-button button {
+    margin: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: #fff;
 }
