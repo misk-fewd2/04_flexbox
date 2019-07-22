@@ -1,3 +1,64 @@
 h1 {
   color: salmon;
 }
+body {
+  background-color: gainsboro;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.cities {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/london.jpg');
+  justify-content: center;
+  align-items: center;
+}
+.guidebook-button {
+  display: flex;
+  justify-content: center;
+
+}
+.other1{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/napa.jpg');
+  justify-content: center;
+  align-items: center;
+  flex-grow: inherit;
+}
+.other2{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/new-york.jpg');
+  justify-content: center;
+  align-items: center;
+}
+.other3{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/sonoma.jpg');
+  justify-content: center;
+  align-items: center;
+}
