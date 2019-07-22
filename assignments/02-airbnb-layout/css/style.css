@@ -1,3 +1,112 @@
 h1 {
-  color: salmon;
+  color: rgb(95, 95, 95); font-size: 2em;
+  margin: 0.67em 0;
+}
+p{
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+body{
+  background-color: rgb(231, 230, 227)
+}
+.headline {
+  display: flex;
+  align-items: CENTER;
+  flex-direction: column;
+  margin-top: 10px;
+  font-family: 'Lucida Sans';
+}
+.flex-div{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 190px;
+margin-right: 190px;
+}
+.cities{
+  display: flex;
+  height: 250px;
+  width: 250px;
+  /* background-image: url('../img/london.jpg'); */
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Lucida Sans';
+}
+
+.cities:nth-of-type(1){
+  background-image: url('../img/london.jpg');
+  background-position: center;
+}
+.cities:nth-of-type(2){
+background-image: url('../img/new-york.jpg');
+background-position: center;
+}
+.cities:nth-of-type(3){
+  background-image: url('../img/san-francisco.jpg');
+  background-position: center;
+}
+.guidebook-button {
+  display: flex;
+  justify-content: center;
+align-items: center;
+height: 100px;
+}
+
+.headline2 {
+  display: flex;
+  align-items: CENTER;
+  flex-direction: column;
+  margin-top: 10px;
+  font-family: 'Lucida Sans';
+}
+.flex-div2{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 190px;
+margin-right: 190px;
+}
+.cities2{
+  display: flex;
+  height: 250px;
+  width: 250px;
+  /*background-image: url('../img/napa.jpg');*/
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-family: 'Lucida Sans';
+}
+
+.cities2:nth-of-type(1){
+  background-image: url('../img/napa.jpg');
+  background-position: center;
+}
+.cities2:nth-of-type(2){
+background-image: url('../img/sonoma.jpg');
+background-position: center;
+}
+.cities2:nth-of-type(3){
+  background-image: url('../img/san-francisco-2.jpg');
+  background-position: center;
+}
+
+.guidebook-button2 {
+  display: flex;
+  justify-content: center;
+align-items: center;
+height: 100px;
+}
+
+button{
+  background-color: white;
+  color: rgba(15, 15, 15, 0.842);
+  border: 0.15px solid #979696;
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
 }
