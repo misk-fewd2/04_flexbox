@@ -1,3 +1,86 @@
+body{
+
+  background: gainsboro;
+  font-family: sans-serif;
+font-weight: lighter;
+font-style:inherit;
+text-align: center;
+}
+.headline .scondeline{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
 h1 {
-  color: salmon;
+  color:gray;
+  font-style:inherit;
+}
+h5{
+  color: rgb(80, 77, 77);
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.flix-div{
+  display: flex;
+  justify-content: space-around;
+}
+.cities {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 100px; 
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 250px;
+  background-image: url('../img/new-york.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+.cities:first-of-type {
+  background-image: url('../img/san-francisco.jpg');
+}
+.cities:last-of-type {
+  background-image: url('../img/london.jpg');
+}
+
+.cities2{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px; 
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/sonoma.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cities2:first-of-type {
+  background-image: url('../img/napa.jpg');
+}
+.cities2:last-of-type {
+  background-image: url('../img/san-francisco-2.jpg');
+}
+.guidebooksButton{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+     
+}
+button{
+  font-family:sans-serif;
+  color: rgb(80, 77, 77);
+  margin: 2px;
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom:10px;
+      padding-left:30px;
+      padding-right:30px;
 }
