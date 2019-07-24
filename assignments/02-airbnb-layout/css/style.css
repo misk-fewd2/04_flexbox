@@ -1,3 +1,90 @@
 h1 {
-  color: salmon;
+  color:gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+  background-color: gainsboro;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-div {
+  display: flex;
+  justify-content: space-around;
+}
+.cities {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+
+}
+.london{
+  background-image: url('../img/london.jpg');
+
+}
+.napa{
+  background-image: url('../img/napa.jpg');
+}
+.new{
+  
+  background-image: url('../img/new-york.jpg');
+}
+.san1{
+  background-image: url('../img/san-francisco-2.jpg');
+
+}
+.san{
+   
+  background-image: url('../img/san-francisco.jpg');
+}
+.sonoma{
+  background-image: url('../img/sonoma.jpg');
+
+}
+
+
+.guidebook-button {
+  display: flex;
+  justify-content: center;
+  padding: 46px 20px 20px 20px;
+
+}
+
+.Destinations-button{
+  display: flex;
+  justify-content: center;
+  padding: 46px 20px 20px 20px;
+}
+button{
+
+  margin: 10px 16px 20px 10px;
+  width: 296px;
+  height: 50px;
+  font-size: large;
+  color: rgb(105, 102, 102);
+  border: 1px solid rgb(105, 102, 102);
+  background: rgb(236, 231, 231);
+
+}
+h1{
+
+  font-family: 'Lato';
+  color: rgb(99, 96, 96)
+}
+h3{
+  color:gray ;
+  font-family: inherit;
+  font-size: x-large;
+
+}
+p{
+
+  color:white;
+  font-family: 'Lato';
+  font-size: xx-large;
+ 
 }
