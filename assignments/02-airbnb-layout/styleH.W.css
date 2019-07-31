@@ -1,0 +1,55 @@
+
+h1 {
+    color:black;
+  }
+  body {
+    background-color: gainsboro;
+  }
+  .headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+  
+  .flex-div {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+  .cities {
+    display: flex;
+    height: 300px;
+    width: 300px;
+   background-image:url('../img/london.jpg');
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    
+  }
+  .guidebook-button {
+    display: flex;
+    justify-content:center;
+    margin-top:55px;
+  }
+  .weekend{
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .flex1-div {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;}
+    .C{
+      display: flex;
+      height: 300px;
+      width:300px;
+     background-image:url('../img/london.jpg');
+      align-items: center;
+      margin: 6px;
+      margin-left: 30px;
+      
+    }

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>H.W2</title>
+</head>
+<style>
+* { box-sizing: border-box;
+	background-color:gainsboro;}
+	
+.headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	color:dimgrey;
+    }
+	
+.column {
+  float: left;
+  padding:5px;
+margin-left:5%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	
+	
+	.button {
+  background-color:#FFFFFF;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size:10px;
+  margin-left:500px;
+  margin-top:50px;
+  cursor:pointer;
+}
+	.head{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+	color:dimgrey;
+	}
+	
+	</style>
+
+<body>
+	 <div class="headline">    
+    <h1>Meet Guidebooks</h1>  
+    <p>Discover hundreds of local spots recommended by Airbnb hosts</p>
+  </div>
+	
+<div class="row">
+  <div class="column">
+   <img src="img/san-francisco.jpg" width="300" height="300" alt=""/></div>
+  <div class="column">
+  <img src="img/new-york.jpg" width="300" height="300" alt=""/></div>
+  <div class="column">
+   <img src="img/london.jpg" width="300" height="300" alt=""/></div>
+</div>
+<button class="button">See All Guidebooks</button>
+<div class="head">
+	<h1> Just for the weekend </h1>
+	<p> Discover new , inspiring place close to home</p></div>
+	<div class="row">
+  <div class="column">
+    <img src="img/napa.jpg" width="300" height="300" alt=""/></div>
+  <div class="column">
+    <img src="img/sonoma.jpg" width="300" height="300" alt=""/></div>
+  <div class="column">
+    <img src="img/san-francisco-2.jpg" width="300" height="300" alt=""/></div>
+</div>
+</body>
+</html>
